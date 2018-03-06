@@ -1,0 +1,23 @@
+* {
+    background-color: gray;
+    /* text-align: center;
+    margin: auto; */
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.game-section {
+    text-align: center;
+
+}
+
+.game-section {
+    position: relative;
+    top: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

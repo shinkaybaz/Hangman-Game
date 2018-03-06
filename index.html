@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- link = bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" /> -->
+
+
+</head>
+
+<body>
+
+
+
+    <div class="main-container">
+
+        <div class="jumbotron">
+            <h1>HANGMAN GAME!</h1>
+            <p>Guess the Games of Thrones Character</p>
+
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"></h3>Word To Guess</h3>
+            </div>
+            <div class="panel-body">
+                <h2 id="wordToGuess"></h2>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Wrong Guesses: <span id="wrongGuesses"></span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Guesses left: <span id="numGuesses"></span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Win Counter: <span id="winCounter"></span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Loss Counter: <span id="lossCounter"></span>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div class="game-section">
+        <div class="rowFirst">
+            <div class="col-md-6 col-md-3">
+                <img src="https://vignette.wikia.nocookie.net/gameofthrones/images/d/d9/Tyrion_Lannister.jpg/revision/latest?cb=20110411054140"
+                    alt="Tyrion" class="img-thumbnail" width="250px">
+                <img src="https://media.glamour.com/photos/571f816f805ec6df74250ada/master/pass/daenerys-horizontal.jpg" alt="Daenerys" class="img-thumbnail"
+                    width="250px">
+                <img src="https://i.pinimg.com/originals/ff/26/e8/ff26e8251f58845e7acf6fe5453f9447.jpg" alt="Cersei" class="img-thumbnail"
+                    width="100px">
+                <img src="https://a.wattpad.com/cover/119869446-352-k975381.jpg" alt="Khal" class="img-thumbnail" width="100px">
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
